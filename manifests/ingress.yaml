@@ -12,7 +12,7 @@ spec:
           service:
             name: azure-voting-app
             port:
-              number: 80
+              number: 8079
         path: /
         pathType: Prefix
 status:
