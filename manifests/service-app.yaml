@@ -12,6 +12,6 @@ spec:
     targetPort: 8080
   selector:
     app: azure-voting-app
-  type: ClusterIP
+  type: NodePort
 status:
   loadBalancer: {}
