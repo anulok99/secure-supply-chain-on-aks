@@ -18,7 +18,7 @@ spec:
         app: azure-voting-app
     spec:
       containers:
-      - image: azure-voting-app-rust:v0.1-alpha 
+      - image: ghcr.io/anulok99/helloworld:1.0 
         name: azure-voting-app-rust
         ports:
         - containerPort: 8080
