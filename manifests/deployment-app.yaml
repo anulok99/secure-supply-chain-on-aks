@@ -20,7 +20,7 @@ spec:
       imagePullSecrets:
       - name: ghcr-login-secret
       containers:
-      - image: ghcr.io/anulok99/helloworld:1.0 
+      - image: ghcr.io/anulok99/helloworld:2.0 
         name: azure-voting-app-rust
         ports:
         - containerPort: 8080
