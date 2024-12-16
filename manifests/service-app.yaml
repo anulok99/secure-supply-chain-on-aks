@@ -7,9 +7,8 @@ metadata:
   name: azure-voting-app
 spec:
   ports:
-  - port: 80
-    protocol: TCP
-    targetPort: 8080
+  - protocol: TCP
+    targetPort: 11000
     nodePort: 30001
   selector:
     app: azure-voting-app
